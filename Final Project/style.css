@@ -1,0 +1,86 @@
+/* Tổng thể */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a8d0e6;
+}
+
+/* Header */
+header {
+    background-color: #374785;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #24305e;
+    padding: 10px 0;
+}
+
+.nav-btn {
+    background-color: #f8ede3;
+    color: #24305e;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.nav-btn:hover {
+    background-color: #dbe9f4;
+}
+
+/* Main content */
+main {
+    max-width: 960px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Tiêu đề */
+h2 {
+    color: #374785;
+}
+
+/* Danh sách */
+ul {
+    list-style: circle;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* Hình ảnh */
+section img {
+    width: 180px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+/* Link */
+a {
+    color: #374785;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
